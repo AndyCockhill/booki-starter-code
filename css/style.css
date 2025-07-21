@@ -1,3 +1,62 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+    width: 61.09px;
+    height: 19px;
+}
+
+#menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-title {
+    text-align: justify;
+}
+
+.filter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.economique {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.familial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.romantique {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pepites {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
